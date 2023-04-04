@@ -1,0 +1,22 @@
+# Compiled files
+*.o
+*.out
+*.exe
+
+# Build directories
+build/
+Debug/
+Release/
+
+# Personal or sensitive information
+config.ini
+passwords.txt
+
+# Automatically generated files
+log.txt
+cache/
+
+# Development environment settings
+.vscode/
+.project
+.settings/
