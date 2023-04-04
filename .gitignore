@@ -20,3 +20,5 @@ cache/
 .vscode/
 .project
 .settings/
+.vscode/tasks.json
+project/helloworld.exe
