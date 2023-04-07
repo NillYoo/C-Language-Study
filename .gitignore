@@ -19,6 +19,7 @@ cache/
 # Development environment settings
 .vscode/
 .project
+.history
 .settings/
 .vscode/tasks.json
 project/helloworld.exe
