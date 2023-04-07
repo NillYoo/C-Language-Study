@@ -38,6 +38,22 @@
 
 </br>
 
+### Mac에서 개발 환경 설정
+
+- `Xcode Command Line Tools` 설치: 
+  - macOS에서 C 컴파일러(clang)를 가져오려면 Xcode Command Line Tools을 설치
+  - 터미널을 열고 다음 명령을 입력
+  ```
+  xcode-select --install
+  ```
+
+
+---
+
+</br>
+
+### IDE(통합 개발 환경) 설치
+
 - `Visual Studio Code(VS Code)` 설치:
   - 공식 홈페이지에서 최신 버전의 `VS Code`를 [다운로드](https://code.visualstudio.com/download)
   - 설치 프로그램을 `실행`하고 설치 프로세스에 따라 프로그램 `설치`
