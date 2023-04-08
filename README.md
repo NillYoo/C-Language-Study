@@ -21,7 +21,7 @@
    - 기본 산술 연산
    - `printf()` 및 `scanf()`를 사용한 입력 및 출력
 
-### 3. 제어 구조
+### 3. 제어 구조 [[Link]](/section3/)
    - 조건문: `if`, `if-else`, `switch`
    - 반복문: `for`, `while`, `do-while`
 
