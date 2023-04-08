@@ -1,4 +1,4 @@
-# Section1
+# Section 1
 
 ## C 프로그래밍 개요
 

@@ -1,4 +1,4 @@
-# Section2
+# Section 2
 
 ## 데이터 타입 및 변수
 
