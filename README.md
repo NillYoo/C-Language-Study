@@ -24,6 +24,7 @@
 ### 3. 제어 구조 [[Link]](/section3/)
    - 조건문: `if`, `if-else`, `switch`
    - 반복문: `for`, `while`, `do-while`
+   - 분기문: `switch`, `break`, `continue`
 
 ### 4. 함수
    - 함수 기본: 선언, 정의 및 호출
