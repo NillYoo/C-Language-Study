@@ -26,10 +26,10 @@ int main() {
         result = num1 + num2;
         break;
     case '/':
-        if (num2 != 0)
-        {
+        if (num2 != 0) //if문을 사용하여 num2의 값이 0이 아닌지 검토
+        { //0이 아닌 경우 계산 실행
             result = num1 / num2;
-        } else {
+        } else { // 0인 경우 오류 메시지 출력
             printf("오류: 0으로는 나눌 수 없습니다.\n");
             return 1;
         }
