@@ -14,7 +14,30 @@ int main() {
     printf("Enter two numbers: ");
     scanf("%lf %lf", &num1, &num2);
 
-    // Your code here
+    switch (operation)
+    {
+    case '+':
+        result = num1 + num2;
+        break;
+    case '-':
+        result = num1 + num2;
+        break;
+    case '*':
+        result = num1 + num2;
+        break;
+    case '/':
+        if (num2 != 0)
+        {
+            result = num1 / num2;
+        } else {
+            printf("오류: 0으로는 나눌 수 없습니다.\n");
+            return 1;
+        }
+        break;
+    default:
+        printf("오류: 올파르지 않은 요청입니다.\n");
+        return 1;
+    }
 
     printf("The result is: %.2lf\n", result);
 
