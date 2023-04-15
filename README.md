@@ -26,7 +26,7 @@
    - 반복문: `for`, `while`, `do-while`
    - 분기문: `switch`, `break`, `continue`
 
-### 4. 함수
+### 4. 함수 [[Link]](/section4/)
    - 함수 기본: 선언, 정의 및 호출
    - 함수 매개변수와 반환 값
    - 재귀
