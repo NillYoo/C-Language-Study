@@ -55,23 +55,25 @@ multiarray[0][0] = 1    multiarray[0][1] = 2    multiarray[0][2] = 3
 multiarray[1][0] = 4    multiarray[1][1] = 5    multiarray[1][2] = 6
 ```
 
-응용하기! 
+### 응용하기! 
 - 중첩된 반복문을 사용하여 multiarray의 배열을 모두 출력하려면 아래와 같이 코드를 작성
 
 ```
 #include <stdio.h>
 
-int multiarray[2][3] = {
-  {1, 2, 3}
-  {4, 5, 6}
-}
+int main() {
+    int multiarray[2][3] = {
+        {1, 2, 3},
+        {4, 5, 6}
+    };
 
-for (int i = 0; i < 2; i++) {
-    for (int j = 0; j < 3; j++) {
-        printf("%d ", multiarray[i][j]);
+    for (int i = 0; i < 2; i++) {
+        for (int j = 0; j < 3; j++) {
+            printf("%d ", multiarray[i][j]);
+        }
+        printf("\n");
     }
-    printf("\n");
-}
 
-return 0;
+    return 0;
+}
 ```
